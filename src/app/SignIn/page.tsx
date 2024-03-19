@@ -1,6 +1,6 @@
 import styles from "./page.module.scss";
 
-export default function Home() {
+export default function SignIn() {
   return (
     <div className={styles.container}>
       
