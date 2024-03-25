@@ -1,6 +1,146 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  padding: 29px;
+  border-radius: 2%;
+
+  width: 400px;
+  height: 550px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25)
+}
+
+.body{
+  font-style: normal;
+  background-color: rgb(243, 243, 243);
+}
+
+.header {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  top: 0;
+  }
+
+.ul{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
   }
+  
+.ull{
+  padding: 2rem;
+  transform: translate(-9rem);
+  }
+
+.login{
+font-size: 22px;
+padding: 12px;
+}
+
+.firstinput{
+  margin: 9px;
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  //border: 1px;
+  border: 1px solid black;
+  opacity: 40%;
+}
+
+
+.switch{
+  margin: 9px;
+  position: relative;
+  margin-top: 20px;
+  input[type="checkbox"]{
+    visibility: hidden;
+    &:checked{
+      + label{
+        background-color: #4A387D;
+        opacity: 50%;
+        &:after{
+          left: 27px;
+        }
+      }
+    }
+  }
+  label{
+    position: absolute;
+    width: 50px;
+    height: 23px;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+    border-radius: 50px;
+    &:after{
+      content: '';
+      width: 25px;
+      height: 25px;
+      background-color: #4A387D;
+      position: absolute;
+      left: -1px;
+      top: -1px;
+      border-radius: 50%;
+      box-shadow: 0 0 4px #999;
+    }
+  }
+  span{
+   
+  }
+}
+
+
+
+
+
+
+
+
+
+.cadastro{
+  color: white;
+  background-color: #4A387D;
+  font-size: 12px;
+  padding: 9px;
+  border-radius: 5px;
+  margin: 9px;
+  border: 1px solid #4A387D;
+}
+
+.p{
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4A387D;
+  color: white;
+  text-align: center;
+  height: 12rem;
+  padding: 5rem;
+  font-size: 20px; 
+}
+
+.pfooter{
+ font-size: 12px; 
+ padding: 2rem;
+}
