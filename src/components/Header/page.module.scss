@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 30px;
+    background-color: #fff;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.123);
+}
+
+.contentMenus {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    padding: 10px;
+    transition: 0.4s;
+    margin-right: 5px;
+
+    p {
+        color: #000;
+        font-size: 15px;
+    }
+}
+
+.menu:hover {
+    background-color: #4A387D;
+    border-radius: 4px;
+
+    p {
+        color: #fff;
+    }
+}

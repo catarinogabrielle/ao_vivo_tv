@@ -1,56 +1,24 @@
 import styles from "./page.module.scss";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+
+import Input from '../../components/Input/pages';
+import Button from '../../components/Button/pages';
 
 export default function SignIn() {
-  
   return (
-    
+    <div className={styles.container}>
+      <div className={styles.box}>
+        <p>Login</p>
 
-    <body className={styles.body}>
+        <Input type='text' placeholder='E-mail' />
+        <Input type='password' placeholder='Senha' />
 
-    <header className={styles.header}>
+        <Button text='LOGIN' radius={8} />
 
-        <nav className={styles.ul}>
-          <a className={styles.ull} href="#">Home</a>
-          <a className={styles.ull} href="#">AO VIVO</a>
-          <a className={styles.ull} href="#">Entrar</a>
-          <a className={styles.ull} href="#">Carrinho</a>
-          
+        <button className={styles.button}>CADASTRE-SE</button>
 
-        </nav>
-
-
-    </header>
-
-    <form action="">
-      <div className={styles.container}>
-        <header className={styles.login}>Login</header>
-
-        <input type="email" className={styles.firstinput}
-        placeholder="E-mail"
-        />
-        <input type="password" className={styles.firstinput}
-        placeholder="Senha"
-         />
-
-        <br />
-
-        <button className={styles.loginbotao}>LOGIN</button>
-        
-        <button className={styles.cadastrar}>CADASTRE-SE</button>
-
-        <a className={styles.p} href="/SignUp">Esqueceu sua senha? clique aqui!</a>
-      
-       </div>
-    </form>
-
-    <footer className={styles.footer}>
-	    <p><a href="#">Política de privacidade - Contato</a></p>
-		    	<p className={styles.pfooter}><a href="#"><strong>&copy; 2024 Copyright - TheDoctors</strong></a></p>
-    </footer>
-
-    </body>
-
+        <text className={styles.forgetPassword}>Esqueceu sua senha? <a href="#">clique aqui!</a></text>
+      </div>
+    </div>
   );
 }
+
