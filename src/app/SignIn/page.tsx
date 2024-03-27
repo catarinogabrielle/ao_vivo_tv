@@ -16,7 +16,7 @@ export default function SignIn() {
 
         <button className={styles.button}>CADASTRE-SE</button>
 
-        <text className={styles.forgetPassword}>Esqueceu sua senha? <a href="#">clique aqui!</a></text>
+        <text className={styles.forgetPassword}>Esqueceu sua senha? <a href="/SignUp">clique aqui!</a></text>
       </div>
     </div>
   );
