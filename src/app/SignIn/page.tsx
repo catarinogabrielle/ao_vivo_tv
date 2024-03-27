@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from "./page.module.scss";
 
 import Input from '../../components/Input/pages';
@@ -14,7 +15,7 @@ export default function SignIn() {
 
         <Button text='LOGIN' radius={8} />
 
-        <button className={styles.button}>CADASTRE-SE</button>
+        <Link className={styles.button} href="SignUp">CADASTRE-SE</Link>
 
         <text className={styles.forgetPassword}>Esqueceu sua senha? <a href="#">clique aqui!</a></text>
       </div>
