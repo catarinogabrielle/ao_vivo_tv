@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.footerInfo}>
-        <a href="#">Política de privacidad</a>
+        <a href="#">Política de privacidade</a>
         <p>-</p>
         <a href="#">Contato</a>
       </div>
