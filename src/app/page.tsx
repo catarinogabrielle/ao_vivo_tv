@@ -8,6 +8,8 @@ export default function Home() {
       <div className={styles.content}>
         <div className={styles.banner}></div>
 
+        <div className={styles.line} />
+
         <h1 className={styles.title}>Ofertas para você</h1>
 
         <div className={styles.contentCard}>
