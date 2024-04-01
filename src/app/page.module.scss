@@ -21,6 +21,10 @@
   height: 400px;
   margin-top: 15px;
   background-color: #D9D9D9;
+
+  @media only screen and (max-width: 1000px) {
+    height: 300px;
+  }
 }
 
 .line {
