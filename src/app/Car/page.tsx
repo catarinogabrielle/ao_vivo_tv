@@ -19,8 +19,8 @@ export default function Car() {
                 alt="Picture of the author"
               />
               <div>
-                <nav>
-                  <h1>Nome do produto que estamos vedendo no video</h1>
+                <nav> 
+                  <h1>Nome do produto que estamos vendendo no video</h1>
                   <p>Excluir</p>
                 </nav>
 
