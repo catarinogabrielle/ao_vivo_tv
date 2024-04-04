@@ -26,11 +26,9 @@ export default function Product() {
           </div>
         </div>
 
-        <div className={styles.line} style={{ marginTop: 30 }} />
+        <div className={styles.description}>
+          <h4>Descrição do produto</h4>
 
-        <h4>Descrição do produto</h4>
-
-        <div style={{ marginBottom: 50 }}>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, non,
             iusto doloribus, neque blanditiis nulla deleniti reprehenderit quis
             possimus inventore accusamus totam commodi velit delectus repellendus
@@ -38,7 +36,7 @@ export default function Product() {
             adipisicing elit. Cumque animi pariatur impedit, aut numquam sequi
             tempore aliquam, libero, repellat laborum amet nisi quaerat laudantium
             accusantium? Quia incidunt asperiores ipsa expedita.</p>
-          <br />
+
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, non,
             iusto doloribus, neque blanditiis nulla deleniti reprehenderit quis
             possimus inventore accusamus totam commodi velit delectus repellendus
