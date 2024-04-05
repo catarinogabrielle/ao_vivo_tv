@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.content}>
-        <text>Logo</text>
+        <text style={{ color: '#fff' }}>Logo</text>
 
         <nav className={styles.contentMenus}>
           <Link className={styles.menu} href="/">
@@ -23,8 +23,8 @@ export default function Header() {
           <Link className={styles.menu} href="/Car">
             <p>Carrinho</p>
           </Link>
-        </nav >
+        </nav>
       </div>
-    </header >
+    </header>
   )
 }

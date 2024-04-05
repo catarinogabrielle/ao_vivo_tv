@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 24px 30px;
-    background-color: #fff;
+    padding: 17px 30px;
+    background-color: #4A387D;
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.123);
 }
 
@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    max-width: 1500px;
+    max-width: 1300px;
     width: 100%;
 }
 
@@ -23,20 +23,17 @@
 
 .menu {
     padding: 10px;
-    transition: 0.4s;
     margin-right: 5px;
 
     p {
-        color: #000;
+        color: #fff;
         font-size: 15px;
+        transition: 0.4s;
     }
 }
 
 .menu:hover {
-    background-color: #4A387D;
-    border-radius: 4px;
-
     p {
-        color: #fff;
+        scale: 1.07;
     }
 }
