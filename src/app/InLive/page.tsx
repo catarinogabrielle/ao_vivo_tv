@@ -34,6 +34,23 @@ export default function InLive() {
             />
             Your browser does not support the video tag.
           </video>
+
+          <div className={styles.boxInfo}>
+            <div style={{ padding: '0px 12px' }}>
+              <h1>Nome do produto que estamos vendendo no video</h1>
+
+              <div className={styles.info} style={{ borderTop: '1px solid #e9e9e9' }}>
+                <h2>PREÇO DA VENDA</h2>
+              </div>
+
+              <div className={styles.info}>
+                <h3>R$ 87,56</h3>
+              </div>
+            </div>
+
+            <Button text='Compre agora' radius={0} />
+          </div>
+
         </div>
 
         <div className={styles.line} />
