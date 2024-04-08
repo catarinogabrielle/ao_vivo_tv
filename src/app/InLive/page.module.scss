@@ -50,6 +50,7 @@
 
 .boxVideo {
   display: flex;
+  justify-content: right;
   width: 100%;
   margin-top: 20px;
 }
@@ -62,7 +63,6 @@
 .boxInfo {
   display: flex;
   position: absolute;
-
   margin: 10px;
   flex-direction: column;
   width: 220px;
