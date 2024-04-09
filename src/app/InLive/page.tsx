@@ -34,12 +34,14 @@ export default function InLive() {
             />
             Your browser does not support the video tag.
           </video>
-          
-          <div className={styles.boxInfo}>
-            <div style={{ padding: '0px 12px' }}>
+
+          <div className={styles.contentInfo}>
+            <div className={styles.boxInfo}>
               <h1>Nome do produto que estamos vendendo no video</h1>
 
-              <div className={styles.info} style={{ borderTop: '1px solid #e9e9e9' }}>
+              <div className={styles.line} />
+
+              <div className={styles.info}>
                 <h2>PREÇO DA VENDA</h2>
               </div>
 
